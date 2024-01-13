@@ -1,0 +1,146 @@
+.container {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    border: 1px solid black;
+    background-image: url("watermark.png");
+  }
+  
+  .header {
+    display: u;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .date {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .occasion {
+    font-style: italic;
+    font-size: 16px;
+  }
+  .customer-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .flower {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    position: relative;
+  }
+
+  .about, .contact, .order{
+    line-height: 1.5em;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .customer, .receiver, .order {
+    padding: 5px;
+  }
+  .order{
+    justify-content: right;
+    justify-self: right;
+    text-align: right;
+  }
+  .product-area{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    padding: 10px;
+  }
+  .address {
+    white-space: g;
+  }
+  .contact {
+    margin-top: 10px;
+  }
+  
+  .product-name {
+    font-weight: bold;
+    line-height: 1em;
+    font-size: 16px;
+  }
+  .bill{
+    line-height: 1em;
+    font-size: 16px;
+  }
+  
+  .name {
+    font-size: px;
+  }
+  .details{
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .describe{
+    font-size: 16px;
+  }
+  .color, .description, .price {
+    white-space: pre-line;
+  }
+  
+  .message {
+    padding: 10px;
+  }
+  .product-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+  .bill p{
+    display: grid;
+    justify-content: end;
+  }
+  .vertical-1{
+    border-left: 2px solid #000;
+    height: 200px;
+    left: 68%;
+    bottom: 0;
+    position: absolute;
+  }
+  .vertical-2{
+    border-left: 2px solid #000;
+    height: 120px;
+    left: 50%;
+    bottom: 0;
+    position: absolute;
+    margin-left: 50px;
+    margin-bottom: 10px;
+  }
+  .order-details{
+    font-weight: bold;
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  .address-area{
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
+  .address-details p {
+    font-size: 14px;
+    line-height: 1rem;
+  }
+  .text {
+    font-family: "Brush Script MT", cursive;
+    font-size: 18px;
+  }
+  .bold{
+    font-weight: bold;
+  }
+  
+  
